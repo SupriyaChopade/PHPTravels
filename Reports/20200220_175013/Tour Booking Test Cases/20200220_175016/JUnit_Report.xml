@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Tour Booking Test Cases" time="265.213" tests="1" failures="0" errors="0">
+   <testsuite name="Tour Booking Test Cases" tests="1" failures="0" errors="0" time="265.213" timestamp="2020-02-20 17:50:27" hostname="supri - 192.168.1.204" id="Test Suites/Tour Booking Test Cases">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\supri\\Katalon Studio\\AxelerantSkillTest\\Reports\\20200220_175013\\Tour Booking Test Cases\\20200220_175016"/>
+         <property name="logFiles" value="C:\\Users\\supri\\Katalon Studio\\AxelerantSkillTest\\Reports\\20200220_175013\\Tour Booking Test Cases\\20200220_175016\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="supri - 192.168.1.204"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+         <property name="browser" value="Firefox 73.0"/>
+         <property name="hostAddress" value="192.168.1.204"/>
+         <property name="sessionId" value="4c598716-ea69-4ba4-b267-34156e702c38"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TourBookingFlow" time="248.566" classname="Test Cases/TourBookingFlow" status="PASSED">
+         <system-out><![CDATA[2020-02-20 17:50:29 - [TEST_CASE][PASSED] - Test Cases/TourBookingFlow: Test Cases/TourBookingFlow
+
+2020-02-20 17:50:33 - [TEST_STEP][PASSED] - com.Utilities.CommonUtilities.launchSite(): com.Utilities.CommonUtilities.launchSite is PASSED
+
+2020-02-20 17:50:35 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-02-20 17:50:35 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-02-20 17:51:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-02-20 17:53:14 - [MESSAGE][PASSED] - Navigate to 'https://www.phptravels.net/home' successfully
+
+2020-02-20 17:53:30 - [MESSAGE][PASSED] - Refresh successfully
+
+2020-02-20 17:53:35 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-02-20 17:53:35 - [MESSAGE][PASSED] - com.Utilities.CommonUtilities.launchSite is PASSED
+
+2020-02-20 17:53:35 - [TEST_STEP][PASSED] - fName = findTestData("TestData").getValue(1, 1): null
+
+2020-02-20 17:54:01 - [TEST_STEP][PASSED] - phoneNo = findTestData("TestData").getValue(3, 1): null
+
+2020-02-20 17:54:01 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-02-20 17:54:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-02-20 17:54:03 - [TEST_STEP][PASSED] - navigateToUrl("https://www.phptravels.net/offers"): Navigate to 'https://www.phptravels.net/offers' successfully
+
+2020-02-20 17:54:07 - [MESSAGE][PASSED] - Navigate to 'https://www.phptravels.net/offers' successfully
+
+2020-02-20 17:54:07 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-02-20 17:54:12 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-02-20 17:54:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_PHPTRAVELS_Home/Page_Special Offers/div_Summer Vacation")): Object: 'Object Repository/Page_PHPTRAVELS_Home/Page_Special Offers/div_Summer Vacation' is clicked on
+
+2020-02-20 17:54:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PHPTRAVELS_Home/Page_Special Offers/div_Summer Vacation' is clicked on
+
+2020-02-20 17:54:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_PHPTRAVELS_Home/Page_Special Offers/a_Read More")): Object: 'Object Repository/Page_PHPTRAVELS_Home/Page_Special Offers/a_Read More' is clicked on
+
+2020-02-20 17:54:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PHPTRAVELS_Home/Page_Special Offers/a_Read More' is clicked on
+
+2020-02-20 17:54:19 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-02-20 17:54:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-02-20 17:54:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_PHPTRAVELS_Home/Page_Summer Vacation/input_Name_name"), fName): Text 'Data' is set on object 'Object Repository/Page_PHPTRAVELS_Home/Page_Summer Vacation/input_Name_name'
+
+2020-02-20 17:54:22 - [MESSAGE][PASSED] - Text 'Data' is set on object 'Object Repository/Page_PHPTRAVELS_Home/Page_Summer Vacation/input_Name_name'
+
+2020-02-20 17:54:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_PHPTRAVELS_Home/Page_Summer Vacation/input_Phone_phone"), phoneNo): Text '9921973333' is set on object 'Object Repository/Page_PHPTRAVELS_Home/Page_Summer Vacation/input_Phone_phone'
+
+2020-02-20 17:54:23 - [MESSAGE][PASSED] - Text '9921973333' is set on object 'Object Repository/Page_PHPTRAVELS_Home/Page_Summer Vacation/input_Phone_phone'
+
+2020-02-20 17:54:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_PHPTRAVELS_Home/Page_Summer Vacation/textarea_Message_message"), "QA Check"): Text 'QA Check' is set on object 'Object Repository/Page_PHPTRAVELS_Home/Page_Summer Vacation/textarea_Message_message'
+
+2020-02-20 17:54:24 - [MESSAGE][PASSED] - Text 'QA Check' is set on object 'Object Repository/Page_PHPTRAVELS_Home/Page_Summer Vacation/textarea_Message_message'
+
+2020-02-20 17:54:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_PHPTRAVELS_Home/Page_Summer Vacation/input_Message_btn btn-success btn-success btn-block btn-lg")): Object: 'Object Repository/Page_PHPTRAVELS_Home/Page_Summer Vacation/input_Message_btn btn-success btn-success btn-block btn-lg' is clicked on
+
+2020-02-20 17:54:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PHPTRAVELS_Home/Page_Summer Vacation/input_Message_btn btn-success btn-success btn-block btn-lg' is clicked on
+
+2020-02-20 17:54:35 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-02-20 17:54:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-02-20 17:54:37 - [TEST_STEP][PASSED] - findTestObject("Object Repository/Page_PHPTRAVELS_Home/Page_Summer Vacation/div_Thanks For Contacting"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-02-20 17:50:27 - [TEST_SUITE][PASSED] - Tour Booking Test Cases: Test Cases/TourBookingFlow]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

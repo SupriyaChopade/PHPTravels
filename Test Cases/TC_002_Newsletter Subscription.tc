@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case to automate and test newsletter subscription flow</description>
+   <name>TC_002_Newsletter Subscription</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ee5a608b-52ab-4d85-8b5a-026c3d982c2d</testCaseGuid>
+</TestCaseEntity>

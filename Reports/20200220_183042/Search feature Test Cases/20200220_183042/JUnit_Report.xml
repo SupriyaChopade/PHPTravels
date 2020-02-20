@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Search feature Test Cases" time="173.55" tests="1" failures="0" errors="0">
+   <testsuite name="Search feature Test Cases" tests="1" failures="0" errors="0" time="173.55" timestamp="2020-02-20 18:31:14" hostname="supri - 192.168.1.204" id="Test Suites/Search feature Test Cases">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\supri\\Katalon Studio\\AxelerantSkillTest\\Reports\\20200220_183042\\Search feature Test Cases\\20200220_183042"/>
+         <property name="logFiles" value="C:\\Users\\supri\\Katalon Studio\\AxelerantSkillTest\\Reports\\20200220_183042\\Search feature Test Cases\\20200220_183042\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="supri - 192.168.1.204"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+         <property name="browser" value="Firefox 73.0"/>
+         <property name="hostAddress" value="192.168.1.204"/>
+         <property name="sessionId" value="e97dc883-9bba-42e1-a22c-3008408c7728"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/FlightSearch" time="168.068" classname="Test Cases/FlightSearch" status="PASSED">
+         <system-out><![CDATA[2020-02-20 18:31:15 - [TEST_CASE][PASSED] - Test Cases/FlightSearch: Test Cases/FlightSearch
+
+2020-02-20 18:31:17 - [TEST_STEP][PASSED] - com.Utilities.CommonUtilities.launchSite(): com.Utilities.CommonUtilities.launchSite is PASSED
+
+2020-02-20 18:31:18 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-02-20 18:31:19 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-02-20 18:32:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-02-20 18:32:55 - [MESSAGE][PASSED] - Navigate to 'https://www.phptravels.net/home' successfully
+
+2020-02-20 18:33:00 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-02-20 18:33:00 - [MESSAGE][PASSED] - com.Utilities.CommonUtilities.launchSite is PASSED
+
+2020-02-20 18:33:00 - [TEST_STEP][PASSED] - click(findTestObject("Page_PHPTRAVELS  Travel Technology Partner/a_Flights")): Object: 'Object Repository/Page_PHPTRAVELS  Travel Technology Partner/a_Flights' is clicked on
+
+2020-02-20 18:33:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PHPTRAVELS  Travel Technology Partner/a_Flights' is clicked on
+
+2020-02-20 18:33:01 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-02-20 18:33:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-02-20 18:33:03 - [TEST_STEP][PASSED] - click(findTestObject("Page_PHPTRAVELS  Travel Technology Partner/CalenderIcon")): Object: 'Object Repository/Page_PHPTRAVELS  Travel Technology Partner/CalenderIcon' is clicked on
+
+2020-02-20 18:33:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PHPTRAVELS  Travel Technology Partner/CalenderIcon' is clicked on
+
+2020-02-20 18:33:04 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-02-20 18:33:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-02-20 18:33:07 - [TEST_STEP][PASSED] - click(findTestObject("Page_PHPTRAVELS  Travel Technology Partner/div_29")): Object: 'Object Repository/Page_PHPTRAVELS  Travel Technology Partner/div_29' is clicked on
+
+2020-02-20 18:33:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PHPTRAVELS  Travel Technology Partner/div_29' is clicked on
+
+2020-02-20 18:33:08 - [TEST_STEP][PASSED] - click(findTestObject("Page_PHPTRAVELS  Travel Technology Partner/button_Search")): Object: 'Object Repository/Page_PHPTRAVELS  Travel Technology Partner/button_Search' is clicked on
+
+2020-02-20 18:33:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PHPTRAVELS  Travel Technology Partner/button_Search' is clicked on
+
+2020-02-20 18:33:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Flights Results - From to NYC to MIA/div_Modify Search_theme-search-results-item-mask-link")): Object: 'Object Repository/Page_Flights Results - From to NYC to MIA/div_Modify Search_theme-search-results-item-mask-link' is clicked on
+
+2020-02-20 18:33:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Flights Results - From to NYC to MIA/div_Modify Search_theme-search-results-item-mask-link' is clicked on
+
+2020-02-20 18:33:19 - [TEST_STEP][PASSED] - findTestObject("Object Repository/Page_Flights Results - From to NYC to MIA/p_Saturday 29 Feb 2020"): null
+
+2020-02-20 18:33:19 - [TEST_STEP][PASSED] - findTestObject("Object Repository/Page_Flights Results - From to NYC to MIA/b_New York"): null
+
+2020-02-20 18:33:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Flights Results - From to NYC to MIA/b_Miami")): Object: 'Object Repository/Page_Flights Results - From to NYC to MIA/b_Miami' is clicked on
+
+2020-02-20 18:33:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Flights Results - From to NYC to MIA/b_Miami' is clicked on
+
+2020-02-20 18:33:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Flights Results - From to NYC to MIA/div_")): Object: 'Object Repository/Page_Flights Results - From to NYC to MIA/div_' is clicked on
+
+2020-02-20 18:33:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Flights Results - From to NYC to MIA/div_' is clicked on
+
+2020-02-20 18:33:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Flights Results - From to NYC to MIA/label_2 Stop")): Object: 'Object Repository/Page_Flights Results - From to NYC to MIA/label_2 Stop' is clicked on
+
+2020-02-20 18:33:22 - [MESSAGE][ERROR] - TypeError: rect is undefined
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-K853U50', ip: '192.168.1.204', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200217142647, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 22252, moz:profile: C:\Users\supri\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e97dc883-9bba-42e1-a22c-3008408c7728
+
+2020-02-20 18:33:52 - [MESSAGE][ERROR] - TypeError: rect is undefined
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-K853U50', ip: '192.168.1.204', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200217142647, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 22252, moz:profile: C:\Users\supri\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e97dc883-9bba-42e1-a22c-3008408c7728
+
+2020-02-20 18:33:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Flights Results - From to NYC to MIA/label_2 Stop' is clicked on
+
+2020-02-20 18:33:52 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-02-20 18:33:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-02-20 18:33:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Flights Results - From to NYC to MIA/label_American Airlines")): Object: 'Object Repository/Page_Flights Results - From to NYC to MIA/label_American Airlines' is clicked on
+
+2020-02-20 18:33:55 - [MESSAGE][ERROR] - TypeError: rect is undefined
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-K853U50', ip: '192.168.1.204', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200217142647, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 22252, moz:profile: C:\Users\supri\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e97dc883-9bba-42e1-a22c-3008408c7728
+
+2020-02-20 18:34:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Flights Results - From to NYC to MIA/label_American Airlines' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-02-20 18:31:14 - [TEST_SUITE][PASSED] - Search feature Test Cases: Test Cases/FlightSearch]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
