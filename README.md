@@ -1,5 +1,5 @@
 # PHPTravels
-Katalon Studio Test cases for PHP Travels for Axelerant skill 
+Katalon Studio Test cases for PHP Travels
 
 CONTENT OF THIS FILE
 *About Katalon Studio
